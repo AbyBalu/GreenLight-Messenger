@@ -7,7 +7,7 @@ GreenLight is a messenger app with the features of sending text and image messag
 
 GreenLight is made with the help of Firebase for storing and maintaining the uploaded images by users and database on login details, chats etc.
 
-For the working of the project you must add your own google-services.json file from your firebase project as I removed mine from it and also have to replace the corresponding authorization key within this project’s APIservice interface file.
+For the working of the project you must add your own google-services.json file from your firebase project as I will be removing mine soon from it and also have to replace the corresponding authorization key within this project’s APIservice interface file.
 
 
 Implementation Guide:-
