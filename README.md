@@ -1,4 +1,4 @@
-# GreenLight-Messenger-App
+# GreenLight-Messenger
 # #30DaysOfKotlin
 
 Developed my first android kotlin app ie. GreenLight in accordance with #30DaysOfKotlin. 
