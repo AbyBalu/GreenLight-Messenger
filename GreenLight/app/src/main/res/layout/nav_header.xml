@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/side_nav_bar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:orientation="vertical"
+        android:gravity="bottom">
+    <ImageView
+            android:id="@+id/cover_img_nav"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/side_nav_bar"
+            android:scaleType="centerCrop">
+    </ImageView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_img_nav"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:paddingTop="8dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/ic_profile"
+            android:contentDescription="Nav_header"/>
+
+    <TextView
+            android:id="@+id/username"
+            android:layout_below="@+id/profile_img_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:paddingLeft="8dp"
+            android:text="Username"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+</RelativeLayout>

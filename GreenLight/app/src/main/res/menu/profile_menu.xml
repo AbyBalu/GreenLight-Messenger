@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:title=""
+            android:icon="@drawable/ic_more"
+            app:showAsAction="always">
+        <menu>
+
+            <item
+                    android:icon="@drawable/ic_update"
+                    android:title="Update profile"
+                    app:showAsAction="never">
+                <menu>
+                    <item
+                            android:id="@+id/update_profile"
+                            android:icon="@drawable/ic_file_upload"
+                            android:title="Update profile picture"/>
+                    <item
+                            android:id="@+id/update_cover"
+                            android:icon="@drawable/ic_file_upload"
+                            android:title="Update cover picture"/>
+                </menu>
+            </item>
+
+            <item
+                    android:id="@+id/profile_signout"
+                    android:icon="@drawable/ic_signout"
+                    android:title="Sign out"
+                    app:showAsAction="never"/>
+        </menu>
+    </item>
+
+</menu>

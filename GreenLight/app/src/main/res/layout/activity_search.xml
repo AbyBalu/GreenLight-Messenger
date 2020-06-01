@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/chat_bg"
+        tools:context="com.example.greenlight.SearchActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar_friends"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimaryDark"
+                app:title="Find Friends"
+                app:titleTextColor="@color/white"
+                app:popupTheme="@style/AppTheme.PopupOverlay">
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+        <EditText
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="20dp"
+                android:layout_below="@+id/header"
+                android:id="@+id/searchUsersET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:hint="Search users here...">
+        </EditText>
+        <androidx.recyclerview.widget.RecyclerView
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:id="@+id/searchList"
+                android:layout_below="@+id/searchUsersET"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>
