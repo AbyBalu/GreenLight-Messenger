@@ -7,7 +7,7 @@ GreenLight is a messenger app with the features of sending text and image messag
 
 GreenLight is made with the help of Firebase for storing and maintaining the uploaded images by users and database on login details, chats etc. For push notifications Firebase Cloud Messaging is used.
 
-For the working of the project you must add your own google-services.json file from your firebase project as I will be removing mine soon from it and also have to replace the corresponding authorization key within this project’s APIservice interface file.
+For the working of the project you must add your own `google-services.json` file from your firebase project as I have removed mine and also have to replace the corresponding authorization key within this project’s `APIservice.java` interface file.
 
 
 Implementation Guide:-
@@ -20,9 +20,9 @@ Implementation Guide:-
 2 - Firebase Panel
 
   - Create Firebase Project (https://console.firebase.google.com/).
-  - Import the file google-service.json into your project.
+  - Import the file `google-service.json` into your project.
   - Connect to firebase console authentication and database from your IDE.
-  - in firebase Storage Rules, change the value of "allow read, write:" from "if request.auth != null" to "if true;".
+  - in firebase Storage Rules, change the value of `allow read, write:` from `if request.auth != null` to `if true;`.
   - For sending notification, paste your Firebase project key into your project APIService.java.
   - When you change database settings, you likely will need to uninstall and reinstall apps to avoid app crashes due to app caches.
 
