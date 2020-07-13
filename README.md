@@ -1,7 +1,7 @@
 # GreenLight-Messenger
 # #30DaysOfKotlin
 
-Developed my first android kotlin app ie. GreenLight in accordance with #30DaysOfKotlin. 
+Developed an android kotlin app ie. GreenLight in accordance with #30DaysOfKotlin. 
 
 GreenLight is a messenger app with the features of sending text and image messages, deleting the sent messages etc along with the functionality of showing online status of the corresponding user, push notification on any message received and users can also update their profile picture and cover picture and can link their facebook ID, instagram ID and also their website so that friends can easily identify them inside the app, as they can also find each other by ‘find friends’ feature. For sending and receiving messages, users have to register or login first.
 
